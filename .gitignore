@@ -1,4 +1,4 @@
-AOTIGenerator.exe
+*.exe
 .env
 lib
 backup
