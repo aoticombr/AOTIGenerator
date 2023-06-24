@@ -1,0 +1,212 @@
+inherited FRegisterDataSource: TFRegisterDataSource
+  Left = 600
+  Top = 305
+  Width = 460
+  Align = alBottom
+  ClientWidth = 460
+  object pcPassos: TPageControl[0]
+    Left = 0
+    Height = 210
+    Top = 0
+    Width = 460
+    ActivePage = tsPasso1
+    Align = alClient
+    BorderSpacing.CellAlignHorizontal = ccaCenter
+    BorderSpacing.CellAlignVertical = ccaLeftTop
+    BiDiMode = bdRightToLeftNoAlign
+    ParentBiDiMode = False
+    TabHeight = 20
+    TabIndex = 0
+    TabOrder = 0
+    TabWidth = 160
+    object tsPasso1: TTabSheet
+      Caption = 'Informações de Conexão'
+      ClientHeight = 182
+      ClientWidth = 452
+      object lblNomeConexao: TLabel
+        Left = 8
+        Height = 15
+        Top = 8
+        Width = 99
+        Caption = 'Nome da Conexão'
+        ParentColor = False
+      end
+      object lblBancoDado: TLabel
+        Left = 8
+        Height = 15
+        Top = 32
+        Width = 84
+        Caption = 'Banco de dados'
+        ParentColor = False
+      end
+      object lblServidorIP: TLabel
+        Left = 8
+        Height = 15
+        Top = 56
+        Width = 94
+        Caption = 'Nome Servidor/IP'
+        ParentColor = False
+      end
+      object lblPort: TLabel
+        Left = 8
+        Height = 15
+        Top = 80
+        Width = 22
+        Caption = 'Port'
+        ParentColor = False
+      end
+      object lblDatabase: TLabel
+        Left = 8
+        Height = 15
+        Top = 104
+        Width = 83
+        Caption = 'Database Name'
+        ParentColor = False
+      end
+      object lblDefaultSchema: TLabel
+        Left = 8
+        Height = 15
+        Top = 133
+        Width = 83
+        Caption = 'Default Schema'
+        ParentColor = False
+      end
+      object edtConexao: TEdit
+        Left = 120
+        Height = 23
+        Top = 0
+        Width = 200
+        TabOrder = 0
+        TextHint = 'Nome Conexao'
+      end
+      object cbxBanco: TComboBox
+        Left = 120
+        Height = 23
+        Top = 28
+        Width = 200
+        ItemHeight = 15
+        ItemIndex = 0
+        Items.Strings = (
+          'PostGres'
+        )
+        ReadOnly = True
+        TabOrder = 1
+        Text = 'PostGres'
+      end
+      object edtHost: TEdit
+        Left = 122
+        Height = 23
+        Top = 56
+        Width = 198
+        TabOrder = 2
+        TextHint = 'Host'
+      end
+      object edtSID: TEdit
+        Left = 119
+        Height = 23
+        Top = 106
+        Width = 200
+        TabOrder = 3
+        TextHint = 'Database'
+      end
+      object edtPort: TSpinEdit
+        Left = 120
+        Height = 23
+        Top = 80
+        Width = 200
+        MinValue = 5432
+        TabOrder = 4
+        Value = 5432
+      end
+      object edtDefaultSchema: TEdit
+        Left = 119
+        Height = 23
+        Top = 133
+        Width = 200
+        TabOrder = 5
+        TextHint = 'Schema'
+      end
+    end
+    object tsPasso2: TTabSheet
+      Caption = 'Pametros de Segurança'
+      ClientHeight = 182
+      ClientWidth = 452
+      object lblUsuario: TLabel
+        Left = 8
+        Height = 15
+        Top = 8
+        Width = 40
+        Caption = 'Usuário'
+        ParentColor = False
+      end
+      object lblSenha: TLabel
+        Left = 8
+        Height = 15
+        Top = 32
+        Width = 32
+        Caption = 'Senha'
+        ParentColor = False
+      end
+      object edtUsuario: TEdit
+        Left = 56
+        Height = 23
+        Top = 0
+        Width = 198
+        TabOrder = 0
+        TextHint = 'Usuário'
+      end
+      object edtSenha: TEdit
+        Left = 56
+        Height = 23
+        Top = 32
+        Width = 198
+        TabOrder = 1
+        TextHint = 'Senha'
+      end
+    end
+  end
+  object Panel1: TPanel[1]
+    Left = 0
+    Height = 30
+    Top = 210
+    Width = 460
+    Align = alBottom
+    ClientHeight = 30
+    ClientWidth = 460
+    TabOrder = 1
+    OnClick = Panel1Click
+    object btnVoltar: TButton
+      Left = 8
+      Height = 20
+      Top = 0
+      Width = 100
+      Caption = 'Voltar'
+      TabOrder = 0
+    end
+    object btnAvancar: TButton
+      Left = 120
+      Height = 20
+      Top = 0
+      Width = 100
+      Caption = 'Avançar'
+      TabOrder = 1
+    end
+    object btnConcluir: TButton
+      Left = 230
+      Height = 20
+      Top = 0
+      Width = 100
+      Caption = 'Concluir'
+      OnClick = btnConcluirClick
+      TabOrder = 2
+    end
+    object btnCancelar: TButton
+      Left = 340
+      Height = 20
+      Top = 0
+      Width = 100
+      Caption = 'Cancelar'
+      TabOrder = 3
+    end
+  end
+end

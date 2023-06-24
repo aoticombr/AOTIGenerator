@@ -1,0 +1,20 @@
+object FMen: TFMen
+  Left = 433
+  Height = 632
+  Top = 252
+  Width = 931
+  Caption = 'FMen'
+  ClientHeight = 632
+  ClientWidth = 931
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object tvDados: TTreeView
+    Left = 0
+    Height = 632
+    Top = 0
+    Width = 232
+    Align = alLeft
+    TabOrder = 0
+    OnClick = tvDadosClick
+  end
+end

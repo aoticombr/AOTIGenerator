@@ -1,0 +1,52 @@
+inherited FMenu: TFMenu
+  Left = 691
+  Height = 520
+  Top = 303
+  Width = 795
+  Caption = 'Menu'
+  ClientHeight = 520
+  ClientWidth = 795
+  OnCreate = FormCreate
+  object tvDados: TTreeView[0]
+    Left = 0
+    Height = 520
+    Top = 0
+    Width = 198
+    Align = alLeft
+    PopupMenu = DropDow_TreeView
+    TabOrder = 0
+    OnDblClick = tvDadosDblClick
+  end
+  object Button1: TButton[1]
+    Left = 487
+    Height = 25
+    Top = 287
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object DropDow_TreeView: TPopupMenu[2]
+    Left = 296
+    Top = 88
+    object MenuItem1: TMenuItem
+      Caption = 'Criar Conexão'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Editar Conexão'
+      OnClick = MenuItem3Click
+    end
+  end
+  object PQConnection1: TPQConnection[3]
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'INTEGRACOES'
+    KeepConnection = False
+    Password = 'pgadmin'
+    UserName = 'postgres'
+    HostName = 'localhost'
+    Left = 320
+    Top = 200
+  end
+end
