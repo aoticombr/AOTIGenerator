@@ -5,10 +5,18 @@ unit FrmPadrao;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ActnList;
 
 type
+
+  { TFPadrao }
+
   TFPadrao = class(TForm)
+    actListPadrao: TActionList;
+    ColDiagPadrao: TColorDialog;
+    imgListPadrao: TImageList;
+    OpenDialogPadrao: TOpenDialog;
+    SavDiagPadrao: TSaveDialog;
   private
 
   public

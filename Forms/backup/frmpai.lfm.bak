@@ -1,6 +1,0 @@
-inherited FPai: TFPai
-  Left = 748
-  Top = 498
-  Width = 562
-  Caption = 'FPai'
-end

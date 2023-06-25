@@ -1,7 +1,7 @@
 object FPadrao: TFPadrao
-  Left = 476
+  Left = 1186
   Height = 240
-  Top = 145
+  Top = 354
   Width = 320
   Caption = 'FPadrao'
   LCLVersion = '2.2.6.0'
