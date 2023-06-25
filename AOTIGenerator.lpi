@@ -71,7 +71,6 @@
         <ComponentName Value="FPai"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmpai"/>
       </Unit>
       <Unit>
         <Filename Value="Forms\frmmenu.pas"/>
@@ -79,7 +78,6 @@
         <ComponentName Value="FMenu"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmmenu"/>
       </Unit>
       <Unit>
         <Filename Value="Forms\frmregisterdatasource.pas"/>

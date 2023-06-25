@@ -59,18 +59,14 @@
         <UnitName Value="uConst"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\ulib.registro.form.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Forms\frmPadrao.pas"/>
+        <Filename Value="Forms\frmpadrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmPai.pas"/>
+        <Filename Value="Forms\frmpai.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPai"/>
         <HasResources Value="True"/>
@@ -78,7 +74,7 @@
         <UnitName Value="frmpai"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\FrmMenu.pas"/>
+        <Filename Value="Forms\frmmenu.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FMenu"/>
         <HasResources Value="True"/>
@@ -86,7 +82,7 @@
         <UnitName Value="frmmenu"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\FrmRegisterDatasource.pas"/>
+        <Filename Value="Forms\frmregisterdatasource.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FRegisterDataSource"/>
         <HasResources Value="True"/>
@@ -122,11 +118,15 @@
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\ulib.registro.cad.pas"/>
+        <Filename Value="utils\ulib.registro.pesq.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\ulib.registro.pesq.pas"/>
+        <Filename Value="utils\ulib.registro.form.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="utils\ulib.registro.cad.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
