@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, Menus,
-  StdCtrls, PQTEventMonitor, frmPai, ulib.ini, ulib.conexao, uConst,
+  StdCtrls, PQTEventMonitor, frmpai, ulib.ini, ulib.conexao, uConst,
   ulib.form.registro, PQConnection;
 
 type
@@ -39,7 +39,7 @@ implementation
 {$R *.lfm}
 
 USES
-   frmRegisterDataSource;
+   frmregisterdatasource;
 
 { TFMenu }
 

@@ -59,38 +59,75 @@
         <UnitName Value="uConst"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\FrmPadrao.pas"/>
+        <Filename Value="Forms\ulib.registro.form.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmPadrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmpai.pas"/>
+        <Filename Value="Forms\frmPai.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPai"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmPai"/>
+        <UnitName Value="frmpai"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmmenu.pas"/>
+        <Filename Value="Forms\FrmMenu.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FMenu"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmmenu"/>
       </Unit>
       <Unit>
-        <Filename Value="ulib.form.registro.pas"/>
-        <IsPartOfProject Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Forms\frmregisterdatasource.pas"/>
+        <Filename Value="Forms\FrmRegisterDatasource.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FRegisterDataSource"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmRegisterDataSource"/>
+        <UnitName Value="frmregisterdatasource"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmfilho.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FFilho"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmpesquisa.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPesquisa"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmcadastro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCadastro"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmprojeto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FProjeto"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\ulib.registro.cad.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\ulib.registro.pesq.pas"/>
+        <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -102,10 +139,8 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <Libraries Value="\usr\local\opt\postgresql@14\lib\postgresql@14\"/>
       <OtherUnitFiles Value="utils;Forms"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
-      <SrcPath Value="\usr\local\opt\postgresql@14\lib\postgresql@14\"/>
     </SearchPaths>
     <Linking>
       <Debugging>

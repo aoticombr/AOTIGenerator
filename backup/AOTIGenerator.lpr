@@ -10,8 +10,9 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, ulib.conexao, ulib.path, ulib.ini, uConst, FrmPadrao,
-  frmPai, frmmenu, ulib.form.registro, frmRegisterDataSource;
+  Forms, ulib.conexao, ulib.path, ulib.ini, uConst,
+  ulib.registro.cad, frmmenu, frmPadrao, frmpai, frmregisterdatasource,
+frmfilho, frmpesquisa, frmcadastro, frmprojeto;
 
 {$R *.res}
 

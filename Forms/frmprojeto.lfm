@@ -1,0 +1,5 @@
+inherited FProjeto: TFProjeto
+  Caption = 'Projetos'
+  ClientHeight = 0
+  ClientWidth = 0
+end

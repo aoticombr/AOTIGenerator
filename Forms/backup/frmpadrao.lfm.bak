@@ -1,8 +1,51 @@
 object FPadrao: TFPadrao
-  Left = 1186
+  Left = 450
   Height = 240
-  Top = 354
-  Width = 320
+  Top = 317
+  Width = 807
   Caption = 'FPadrao'
   LCLVersion = '2.2.6.0'
+  object actListPadrao: TActionList
+    Left = 48
+    Top = 16
+  end
+  object imgListPadrao: TImageList
+    Left = 48
+    Top = 64
+  end
+  object OpenDialogPadrao: TOpenDialog
+    Left = 120
+    Top = 16
+  end
+  object SavDiagPadrao: TSaveDialog
+    Left = 120
+    Top = 64
+  end
+  object ColDiagPadrao: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 120
+    Top = 128
+  end
 end

@@ -1,0 +1,112 @@
+inherited FCadastro: TFCadastro
+  Left = 593
+  Height = 448
+  Top = 381
+  Width = 759
+  ClientHeight = 448
+  ClientWidth = 759
+  object Panel1: TPanel[0]
+    Left = 0
+    Height = 26
+    Top = 422
+    Width = 759
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 26
+    ClientWidth = 759
+    TabOrder = 0
+    object Button1: TButton
+      Left = 675
+      Height = 25
+      Top = 0
+      Width = 75
+      Action = actOpcoes
+      Anchors = [akTop, akRight]
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 595
+      Height = 25
+      Top = 0
+      Width = 75
+      Action = actCancelar
+      Anchors = [akTop, akRight]
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 515
+      Height = 25
+      Top = 0
+      Width = 75
+      Action = actGravarSair
+      Anchors = [akTop, akRight]
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 435
+      Height = 25
+      Top = 0
+      Width = 75
+      Action = actGravar
+      Anchors = [akTop, akRight]
+      TabOrder = 3
+    end
+    object Button5: TButton
+      Left = 355
+      Height = 25
+      Top = 0
+      Width = 75
+      Action = actExcluir
+      Anchors = [akTop, akRight]
+      TabOrder = 4
+    end
+  end
+  object Notebook1: TNotebook[1]
+    Left = 305
+    Height = 50
+    Top = 127
+    Width = 75
+    PageIndex = 0
+    TabOrder = 1
+    object Page2: TPage
+    end
+  end
+  object pgPadrao: TPageControl[2]
+    Left = 0
+    Height = 422
+    Top = 0
+    Width = 759
+    ActivePage = tsPadrao
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 2
+    object tsPadrao: TTabSheet
+      Caption = 'Pagina'
+    end
+  end
+  inherited actListPadrao: TActionList[3]
+    object actExcluir: TAction[0]
+      Caption = 'Excluir'
+    end
+    object actGravar: TAction[1]
+      Caption = 'Gravar'
+    end
+    object actGravarSair: TAction[2]
+      Caption = 'Gravar e Sair'
+    end
+    object actCancelar: TAction[3]
+      Caption = 'Cancelar'
+    end
+    object actOpcoes: TAction[4]
+      Caption = 'Opções'
+    end
+  end
+  inherited imgListPadrao: TImageList[4]
+  end
+  inherited OpenDialogPadrao: TOpenDialog[5]
+  end
+  inherited SavDiagPadrao: TSaveDialog[6]
+  end
+  inherited ColDiagPadrao: TColorDialog[7]
+  end
+end

@@ -209,4 +209,14 @@ inherited FRegisterDataSource: TFRegisterDataSource
       TabOrder = 3
     end
   end
+  inherited actListPadrao: TActionList[2]
+  end
+  inherited imgListPadrao: TImageList[3]
+  end
+  inherited OpenDialogPadrao: TOpenDialog[4]
+  end
+  inherited SavDiagPadrao: TSaveDialog[5]
+  end
+  inherited ColDiagPadrao: TColorDialog[6]
+  end
 end

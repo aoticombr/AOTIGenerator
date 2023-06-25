@@ -1,4 +1,4 @@
-unit ulib.form.registro;
+unit ulib.registro.form;
 
 {$mode objfpc}{$H+}
 

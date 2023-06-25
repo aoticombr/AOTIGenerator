@@ -1,4 +1,4 @@
-unit frmRegisterDataSource;
+unit frmregisterdatasource;
 
 {$mode ObjFPC}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls,
-  Spin, ExtCtrls, FrmPadrao, ulib.form.registro, ulib.ini, ulib.conexao;
+  Spin, ExtCtrls, frmPadrao, ulib.registro.form, ulib.ini, ulib.conexao;
 
 type
   TModo = (mInsert, mEdit);

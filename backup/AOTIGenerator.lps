@@ -3,18 +3,15 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
-    <BuildModes Active="Default">
-      <SessionMatrixOptions Count="1">
-        <Item1 ID="576290736735" Modes="Default" Value="/usr/local/opt/postgresql@14/lib/postgresql@14/"/>
-      </SessionMatrixOptions>
-    </BuildModes>
+    <BuildModes Active="Default"/>
     <Units>
       <Unit>
         <Filename Value="AOTIGenerator.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
         <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="utils\ulib.conexao.pas"/>
@@ -49,68 +46,12 @@
         <UsageCount Value="21"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\FrmPadrao.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FPadrao"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="31" Y="26"/>
-        <UsageCount Value="21"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Forms\frmpai.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FPai"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmPai"/>
-        <EditorIndex Value="-1"/>
-        <UsageCount Value="21"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Forms\frmmenu.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FMenu"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="71"/>
-        <CursorPos X="21" Y="73"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
         <Filename Value="ulib.form.registro.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="117"/>
         <CursorPos X="6"/>
         <UsageCount Value="21"/>
-      </Unit>
-      <Unit>
-        <Filename Value="Forms\frmregisterdatasource.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FRegisterDataSource"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmRegisterDataSource"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="44"/>
-        <CursorPos Y="109"/>
-        <UsageCount Value="21"/>
-      </Unit>
-      <Unit>
-        <Filename Value="fmenu.pas"/>
-        <ComponentName Value="FMen"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="FMenu"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="46"/>
-        <CursorPos Y="78"/>
-        <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="utils\ulib.ini"/>
@@ -175,8 +116,56 @@
         <CursorPos X="3" Y="881"/>
         <UsageCount Value="10"/>
       </Unit>
+      <Unit>
+        <Filename Value="Forms\frmmenu.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmpai.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\frmregisterdatasource.lfm"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="Forms\frmpadrao.pas"/>
+        <Caret Line="26" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\frmpadrao.pas"/>
+        <Caret Line="30" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\frmpadrao.pas"/>
+        <Caret Line="31" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\frmpadrao.pas"/>
+        <Caret Line="32" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\frmpadrao.pas"/>
+        <Caret Line="33" Column="31"/>
+      </Position>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode="default">

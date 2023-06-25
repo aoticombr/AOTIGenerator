@@ -1,0 +1,5 @@
+inherited FFilho: TFFilho
+  Left = 735
+  Top = 398
+  Caption = 'FFilho'
+end
