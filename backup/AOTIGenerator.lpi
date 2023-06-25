@@ -59,12 +59,11 @@
         <UnitName Value="uConst"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmPadrao.pas"/>
+        <Filename Value="Forms\FrmPadrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="FrmPadrao"/>
       </Unit>
       <Unit>
         <Filename Value="Forms\frmpai.pas"/>
@@ -103,8 +102,10 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <Libraries Value="\usr\local\opt\postgresql@14\lib\postgresql@14\"/>
       <OtherUnitFiles Value="utils;Forms"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      <SrcPath Value="\usr\local\opt\postgresql@14\lib\postgresql@14\"/>
     </SearchPaths>
     <Linking>
       <Debugging>

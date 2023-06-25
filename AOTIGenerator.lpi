@@ -59,12 +59,11 @@
         <UnitName Value="uConst"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmPadrao.pas"/>
+        <Filename Value="Forms\FrmPadrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="FrmPadrao"/>
       </Unit>
       <Unit>
         <Filename Value="Forms\frmpai.pas"/>

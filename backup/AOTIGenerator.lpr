@@ -11,7 +11,7 @@ uses
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, ulib.conexao, ulib.path, ulib.ini, uConst, FrmPadrao,
-  frmPai, frmmenu, ulib.form.registro;
+  frmPai, frmmenu, ulib.form.registro, frmRegisterDataSource;
 
 {$R *.res}
 

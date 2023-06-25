@@ -1,0 +1,5 @@
+caso esteja usando MACOS  e nao consiga complicar use
+
+```shel
+sudo cp /usr/local/opt/postgresql@14/lib/postgresql@14/libpq.dylib /usr/local/lib
+```

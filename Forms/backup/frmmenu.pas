@@ -71,6 +71,7 @@ end;
 procedure TFMenu.Button1Click(Sender: TObject);
 begin
   PQConnection1.Open;
+
 end;
 
 procedure TFMenu.MenuItem1Click(Sender: TObject);

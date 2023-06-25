@@ -1,7 +1,7 @@
 inherited FMenu: TFMenu
-  Left = 691
+  Left = 485
   Height = 520
-  Top = 303
+  Top = 204
   Width = 795
   Caption = 'Menu'
   ClientHeight = 520
