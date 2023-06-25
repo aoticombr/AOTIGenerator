@@ -21,9 +21,13 @@ begin
 end;
 
 function GetEnvFile:string;
+var
+  _c,_p,_e:string;
 begin
-  result:= GetApplicationFolder +PathDelim+ _init_file;
+  _c:=  ExtractFilePath(ParamStr(0));
+  _p:=  PathDelim;
+  _e:=  _init_file;
+  result:=  _c+_p+_e ;
 end;
 
 end.
-
