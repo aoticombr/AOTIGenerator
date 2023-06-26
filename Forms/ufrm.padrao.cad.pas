@@ -1,4 +1,4 @@
-unit frmcadastro;
+unit ufrm.padrao.cad;
 
 {$mode ObjFPC}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, ComCtrls,
-  StdCtrls, ActnList, frmfilho;
+  StdCtrls, ActnList, ufrm.padrao.filho;
 
 type
 

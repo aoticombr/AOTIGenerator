@@ -59,57 +59,56 @@
         <UnitName Value="uConst"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmpadrao.pas"/>
+        <Filename Value="Forms\ufrm.padrao.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPadrao"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmpai.pas"/>
+        <Filename Value="Forms\ufrm.padrao.pai.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPai"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmmenu.pas"/>
+        <Filename Value="Forms\ufrm.menu.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FMenu"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmregisterdatasource.pas"/>
+        <Filename Value="Forms\ufrm.config.ini.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FRegisterDataSource"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmregisterdatasource"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmfilho.pas"/>
+        <Filename Value="Forms\ufrm.padrao.filho.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FFilho"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmpesquisa.pas"/>
+        <Filename Value="Forms\ufrm.padrao.pesq.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FPesquisa"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmcadastro.pas"/>
+        <Filename Value="Forms\ufrm.padrao.cad.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FCadastro"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="Forms\frmprojeto.pas"/>
+        <Filename Value="Forms\ufrm.projeto.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FProjeto"/>
         <HasResources Value="True"/>
@@ -126,6 +125,12 @@
       <Unit>
         <Filename Value="utils\ulib.registro.cad.pas"/>
         <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\udm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DM"/>
+        <ResourceBaseClass Value="DataModule"/>
       </Unit>
     </Units>
   </ProjectOptions>

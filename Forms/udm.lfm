@@ -1,0 +1,18 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 930
+  VerticalOffset = 426
+  Width = 424
+  object Conexao: TPQConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'INTEGRACOES'
+    KeepConnection = False
+    Password = 'pgadmin'
+    UserName = 'postgres'
+    HostName = 'localhost'
+    Left = 80
+    Top = 16
+  end
+end

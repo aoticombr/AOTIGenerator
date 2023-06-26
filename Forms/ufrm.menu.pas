@@ -1,4 +1,4 @@
-unit frmmenu;
+unit ufrm.menu;
 
 {$mode ObjFPC}{$H+}
 
@@ -6,8 +6,11 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, Menus,
-  StdCtrls, PQTEventMonitor, frmpai, ulib.ini, ulib.conexao, uConst,
-  ulib.registro.form, PQConnection;
+  StdCtrls, PQTEventMonitor,PQConnection,
+  ufrm.padrao.pai,ufrm.padrao.pesq,ufrm.padrao.cad,
+  uConst,
+  ulib.ini, ulib.conexao,
+  ulib.registro.form,ulib.registro.cad,ulib.registro.pesq ;
 
 type
 
@@ -18,7 +21,6 @@ type
     DropDow_TreeView: TPopupMenu;
     MenuItem1: TMenuItem;
     MenuItem3: TMenuItem;
-    PQConnection1: TPQConnection;
     tvDados: TTreeView;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -39,7 +41,7 @@ implementation
 {$R *.lfm}
 
 USES
-   frmregisterdatasource;
+   ufrm.config.ini;
 
 { TFMenu }
 
@@ -69,8 +71,18 @@ begin
 end;
 
 procedure TFMenu.Button1Click(Sender: TObject);
+var
+  frmClass: TPesqClass;
+  frm: TForm;
 begin
-  PQConnection1.Open;
+  inherited;
+  frmClass:= TRegisterPesq.New.FindClassByChave('TFProjeto');
+  frm:= frmClass.Create(self) ;
+  try
+    frm.ShowModal;
+  finally
+    freeandnil(frm);
+  end;
 
 end;
 

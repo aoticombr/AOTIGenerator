@@ -18,15 +18,25 @@ inherited FMenu: TFMenu
     OnDblClick = tvDadosDblClick
   end
   object Button1: TButton[1]
-    Left = 487
+    Left = 488
     Height = 25
-    Top = 287
+    Top = 288
     Width = 75
     Caption = 'Button1'
     OnClick = Button1Click
     TabOrder = 1
   end
-  object DropDow_TreeView: TPopupMenu[2]
+  inherited actListPadrao: TActionList[2]
+  end
+  inherited imgListPadrao: TImageList[3]
+  end
+  inherited OpenDialogPadrao: TOpenDialog[4]
+  end
+  inherited SavDiagPadrao: TSaveDialog[5]
+  end
+  inherited ColDiagPadrao: TColorDialog[6]
+  end
+  object DropDow_TreeView: TPopupMenu[7]
     Left = 296
     Top = 88
     object MenuItem1: TMenuItem
@@ -38,7 +48,7 @@ inherited FMenu: TFMenu
       OnClick = MenuItem3Click
     end
   end
-  object PQConnection1: TPQConnection[3]
+  object PQConnection1: TPQConnection[8]
     Connected = False
     LoginPrompt = False
     DatabaseName = 'INTEGRACOES'

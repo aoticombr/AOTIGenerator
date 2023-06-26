@@ -4,7 +4,7 @@ inherited FPesquisa: TFPesquisa
   Top = 354
   Width = 744
   Caption = 'Pesquias Padrao'
-  ClientHeight = 493
+  ClientHeight = 473
   ClientWidth = 744
   Menu = MainMenu1
   object GroupBox1: TGroupBox[0]

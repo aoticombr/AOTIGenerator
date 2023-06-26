@@ -5,7 +5,7 @@ unit ulib.registro.cad;
 interface
 
 uses
-  Classes, SysUtils, Forms, frmcadastro;
+  Classes, SysUtils, Forms, ufrm.padrao.cad;
 
 type
   TRegisterCad = class

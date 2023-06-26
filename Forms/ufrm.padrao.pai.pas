@@ -1,11 +1,11 @@
-unit frmpai;
+unit ufrm.padrao.pai;
 
 {$mode ObjFPC}{$H+}
 
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, frmPadrao;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ufrm.padrao;
 
 type
   TFPai = class(TFPadrao)

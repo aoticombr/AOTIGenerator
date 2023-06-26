@@ -1,4 +1,4 @@
-unit frmPadrao;
+unit ufrm.padrao;
 
 {$mode ObjFPC}{$H+}
 

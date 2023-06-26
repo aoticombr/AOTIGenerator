@@ -6,8 +6,11 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, Menus,
-  StdCtrls, PQTEventMonitor, frmpai, ulib.ini, ulib.conexao, uConst,
-  ulib.form.registro, PQConnection;
+  StdCtrls, PQTEventMonitor,PQConnection,
+  frmpai,frmpesquisa,frmcadastro,
+  uConst,
+  ulib.ini, ulib.conexao,
+  ulib.registro.form,ulib.registro.cad,ulib.registro.pesq ;
 
 type
 
@@ -69,8 +72,18 @@ begin
 end;
 
 procedure TFMenu.Button1Click(Sender: TObject);
+var
+  frmClass: TPesqClass;
+  frm: TForm;
 begin
-  PQConnection1.Open;
+  inherited;
+  frmClass:= TRegisterPesq.New.FindClassByChave('TFProjeto');
+  frm:= frmClass.Create(self) ;
+  try
+    frm.ShowModal;
+  finally
+    freeandnil(frm);
+  end;
 
 end;
 

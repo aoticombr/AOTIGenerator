@@ -1,14 +1,20 @@
 inherited FRegisterDataSource: TFRegisterDataSource
   Left = 600
+  Height = 222
   Top = 305
-  Width = 460
+  Width = 334
   Align = alBottom
-  ClientWidth = 460
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Configuração'
+  ClientHeight = 222
+  ClientWidth = 334
+  Color = clWhite
   object pcPassos: TPageControl[0]
     Left = 0
-    Height = 210
+    Height = 200
     Top = 0
-    Width = 460
+    Width = 334
     ActivePage = tsPasso1
     Align = alClient
     BorderSpacing.CellAlignHorizontal = ccaCenter
@@ -21,8 +27,8 @@ inherited FRegisterDataSource: TFRegisterDataSource
     TabWidth = 160
     object tsPasso1: TTabSheet
       Caption = 'Informações de Conexão'
-      ClientHeight = 182
-      ClientWidth = 452
+      ClientHeight = 172
+      ClientWidth = 326
       object lblNomeConexao: TLabel
         Left = 8
         Height = 15
@@ -129,8 +135,8 @@ inherited FRegisterDataSource: TFRegisterDataSource
     end
     object tsPasso2: TTabSheet
       Caption = 'Pametros de Segurança'
-      ClientHeight = 182
-      ClientWidth = 452
+      ClientHeight = 172
+      ClientWidth = 326
       object lblUsuario: TLabel
         Left = 8
         Height = 15
@@ -167,56 +173,75 @@ inherited FRegisterDataSource: TFRegisterDataSource
   end
   object Panel1: TPanel[1]
     Left = 0
-    Height = 30
-    Top = 210
-    Width = 460
+    Height = 22
+    Top = 200
+    Width = 334
     Align = alBottom
-    ClientHeight = 30
-    ClientWidth = 460
+    BevelColor = clHighlight
+    ClientHeight = 22
+    ClientWidth = 334
+    Color = clSkyBlue
+    ParentColor = False
     TabOrder = 1
     OnClick = Panel1Click
     object btnVoltar: TButton
       Left = 8
       Height = 20
       Top = 0
-      Width = 100
+      Width = 64
       Caption = 'Voltar'
+      Color = 4227327
+      DoubleBuffered = True
+      ParentBidiMode = False
+      ParentDoubleBuffered = False
+      ParentFont = False
+      ParentShowHint = False
       TabOrder = 0
     end
     object btnAvancar: TButton
-      Left = 120
+      Left = 96
       Height = 20
       Top = 0
-      Width = 100
+      Width = 56
       Caption = 'Avançar'
       TabOrder = 1
     end
     object btnConcluir: TButton
-      Left = 230
+      Left = 176
       Height = 20
       Top = 0
-      Width = 100
+      Width = 60
       Caption = 'Concluir'
       OnClick = btnConcluirClick
       TabOrder = 2
     end
     object btnCancelar: TButton
-      Left = 340
+      Left = 248
       Height = 20
       Top = 0
-      Width = 100
+      Width = 68
       Caption = 'Cancelar'
       TabOrder = 3
     end
   end
   inherited actListPadrao: TActionList[2]
+    Left = 352
+    Top = 24
   end
   inherited imgListPadrao: TImageList[3]
+    Left = 352
+    Top = 72
   end
   inherited OpenDialogPadrao: TOpenDialog[4]
+    Left = 392
+    Top = 24
   end
   inherited SavDiagPadrao: TSaveDialog[5]
+    Left = 392
+    Top = 72
   end
   inherited ColDiagPadrao: TColorDialog[6]
+    Left = 352
+    Top = 120
   end
 end

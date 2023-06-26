@@ -1,4 +1,4 @@
-unit frmpesquisa;
+unit ufrm.padrao.pesq;
 
 {$mode ObjFPC}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ActnList,
-  ExtCtrls, StdCtrls, PairSplitter, DBGrids, frmfilho;
+  ExtCtrls, StdCtrls, PairSplitter, DBGrids, ufrm.padrao.filho;
 
 type
 

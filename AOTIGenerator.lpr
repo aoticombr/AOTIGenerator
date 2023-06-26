@@ -16,15 +16,15 @@ uses
   ulib.ini,
   ulib.registro.cad,
   uConst,
-  frmmenu,
-  frmPadrao,
-  frmpai,
-  frmpesquisa,
-  frmcadastro,
-  frmregisterdatasource,
-  frmfilho,
+  ufrm.menu,
+  ufrm.padrao,
+  ufrm.padrao.pai,
+  ufrm.padrao.pesq,
+  ufrm.padrao.cad,
+  ufrm.config.ini,
+  ufrm.padrao.filho,
 
-  frmprojeto;
+  ufrm.projeto, udm;
 
 {$R *.res}
 
@@ -33,6 +33,7 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TFMenu, FMenu);
+  Application.CreateForm(TDM, DM);
   Application.Run;
 end.
 

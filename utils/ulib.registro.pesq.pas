@@ -5,7 +5,7 @@ unit ulib.registro.pesq;
 interface
 
 uses
-  Classes, SysUtils, Forms, frmpesquisa;
+  Classes, SysUtils, Forms, ufrm.padrao.pesq;
 
 type
   TRegisterPesq = class
